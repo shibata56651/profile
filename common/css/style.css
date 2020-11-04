@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.wrapper > .wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper > .wrap > h1 {
+    margin-top: 0;
+}
+
+.wrapper > .wrap > .box-profile {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 600px;
+    border: solid 1px #aaa;
+    background: #fff;
+    writing-mode: vertical-rl;
+}
+
+.wrapper > .wrap > .box-profile > .open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper > .wrap > .box-profile > .open > .front {
+
+}
+
+.wrapper > .wrap > .box-profile > .open > .front > .caption-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.wrapper > .wrap > .box-profile > .open > .back {
+    display: none;
+}
+
+.wrapper > .wrap > .box-profile > .open > .back > .caption-text {}
+
+.wrapper > .wrap > .box-profile > .back-right {
+    display: none;
+}
+
+.wrapper > .wrap > .box-profile > .back-right > .front {}
+
+.wrapper > .wrap > .box-profile > .back-right > .back {}
